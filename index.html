@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>ASCII Art Loop</title>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: brightness(1.12) contrast(1.3);
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted playsinline preload="auto" aria-label="Animated dot-lattice artwork by 0xSero">
+    <source src="artwork.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
